@@ -9,7 +9,6 @@ Example
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
         
-
         locationService = new LocationService(this, requestCode, LocationService.OnLocationChangedListener);
     }
 
