@@ -3,18 +3,13 @@ This class can generate UTM, MGRS values and can listen on location changes for 
 
 Example
 -------
-public class LocationActivity extends AppCompatActivity implements LocationService.OnLocationChangedListener
-{
-    private LocationService locationService;
-    private final int REQUEST_LOCATION = 1;
-
-    @Override
+@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
         
 
-        locationService = new LocationService(this, REQUEST_LOCATION, this);
+        locationService = new LocationService(this, requestCode, LocationService.OnLocationChangedListener);
     }
 
     @Override
@@ -35,5 +30,3 @@ public class LocationActivity extends AppCompatActivity implements LocationServi
     {
         // Update UI here
     }
-}
-
