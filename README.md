@@ -3,7 +3,8 @@ This class can generate UTM, MGRS values and can listen on location changes for 
 
 Example
 -------
-@Override
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
