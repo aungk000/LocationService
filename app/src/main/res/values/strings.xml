@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Location Service</string>
+    <string name="new_location">New Location</string>
+
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="mgrs">MGRS</string>
+    <string name="utm">UTM</string>
+    <string name="request_location">Request location</string>
+    <string name="done">Done</string>
+    <string name="location_name">Location Name</string>
+
+    <!-- Settings -->
+    <string name="general">General</string>
+    <string name="location_provider">Location Provider</string>
+    <string name="key_location_provider">pref.KEY_PROVIDER</string>
+    <string name="gps">GPS</string>
+    <string name="network">Network</string>
+    <string name="value_gps">gps</string>
+    <string name="value_network">network</string>
+    <string name="settings">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/general">
+
+        <ListPreference
+            android:dialogTitle="@string/location_provider"
+            android:entries="@array/location_provider_entry"
+            android:entryValues="@array/location_provider_value"
+            android:defaultValue="@string/value_gps"
+            android:summary="@string/gps"
+            android:title="@string/location_provider"
+            android:key="@string/key_location_provider"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

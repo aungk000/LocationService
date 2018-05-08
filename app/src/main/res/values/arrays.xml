@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="location_provider_entry">
+        <item>@string/gps</item>
+        <item>@string/network</item>
+    </string-array>
+    <string-array name="location_provider_value">
+        <item>@string/value_gps</item>
+        <item>@string/value_network</item>
+    </string-array>
+</resources>
